@@ -3,9 +3,10 @@
 
 * {
     font-family: 'Outfit', sans-serif;
+    font-size: 18px;
 }
 
-.all-box, body, .ETH-text, .last-part, .mid-cyan-text, .img-border {
+.all-box, body, .ETH-text, .last-part, .mid-cyan-text {
     display: flex;
 }
 
@@ -21,7 +22,7 @@ body {
 .all-box {
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
-    gap: 20px;
+    gap: 30px;
     border-radius: 15px;
     max-width: 350px;
     padding: 30px;
@@ -37,7 +38,10 @@ body {
 .avatar {
     width: 40px;
     margin-right: 15px;
+    line-height: 0;
     border: 1px solid white;
+    border-radius: 20px;
+
 }
 .text-1, .last-white-text {
     color: hsl(0, 0%, 100%);
@@ -50,6 +54,8 @@ body {
 .mid-clock {
     margin-left: auto;
     margin-right: 10px;
+    width: 20px;
+    height: auto;
 }
 p {
     color: hsl(215, 51%, 70%);
@@ -58,8 +64,10 @@ p {
 
 .last-part {
     align-items: center;
-    gap: 5px;
+    gap: 8px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
 }
-.img-border {
-    width: fit-content;
+.last-white-text {
+    margin-left: 3px;
 }
