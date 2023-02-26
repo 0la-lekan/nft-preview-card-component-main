@@ -1,11 +1,11 @@
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(215, 51%, 70%); }
 
 * {
     font-family: 'Outfit', sans-serif;
 }
 
-.all-box, body, .ETH-text, .last-part {
+.all-box, body, .ETH-text, .last-part, .mid-cyan-text, .img-border {
     display: flex;
 }
 
@@ -15,21 +15,29 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
 }
 
 .all-box {
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
- 
+    gap: 20px;
+    border-radius: 15px;
+    max-width: 350px;
+    padding: 30px;
+    
 }
 
 .main-img {
-    width: 300px;
+    max-width: 350px;
+    height: auto;
+    border-radius: 15px;
 }
 
 .avatar {
-    width: 50px;
-    margin-right: 20px;
+    width: 40px;
+    margin-right: 15px;
+    border: 1px solid white;
 }
 .text-1, .last-white-text {
     color: hsl(0, 0%, 100%);
@@ -37,10 +45,11 @@ body {
 
 .mid-cyan-text {
     color: hsl(178, 100%, 50%);
-    margin-right: auto;
+    gap: 10px;
 }
 .mid-clock {
     margin-left: auto;
+    margin-right: 10px;
 }
 p {
     color: hsl(215, 51%, 70%);
@@ -49,4 +58,8 @@ p {
 
 .last-part {
     align-items: center;
+    gap: 5px;
+}
+.img-border {
+    width: fit-content;
 }
