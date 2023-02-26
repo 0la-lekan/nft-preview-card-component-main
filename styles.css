@@ -4,3 +4,20 @@
 * {
     font-family: 'Outfit', sans-serif;
 }
+
+body {
+    /* background-color:  hsl(217, 54%, 11%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-box {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.main-img {
+    width: 100px;
+}
